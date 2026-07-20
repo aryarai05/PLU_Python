@@ -1,0 +1,12 @@
+#Question 4
+CREATE TABLE Customer (
+    CustomerID INT PRIMARY KEY,
+    CustomerName VARCHAR(100),
+    City VARCHAR(50),
+    Mobile VARCHAR(15)
+);
+USE COMPANY;
+ALTER TABLE Customer
+ADD PRIMARY KEY (CustomerID);
+
+#A Primary Key is important because it uniquely identifies each record in a table and helps maintain the accuracy and integrity of the database.
